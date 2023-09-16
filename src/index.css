@@ -1,0 +1,81 @@
+.icono{ 
+  height: 80px;
+  padding-left: 2rem;
+}
+
+.menu a {
+  color: black!important; 
+}
+
+.bg-banner{
+  background-color: #E6E6E9!important;
+  padding-bottom:7rem!important ;
+}
+
+.saludo{
+  padding: 5rem 0;
+  padding-left: 10rem;
+}
+
+.Typewriter span{
+  font-weight: bold!important;
+  font-size: 1.3rem;
+}
+
+.codigo{
+  width: 100%;
+  background-color: black;
+  font-family: 'Inconsolata', monospace;
+  border-radius: 20px;
+  font-size: 22px;
+  padding: 20px 15px;
+  border: #66666E 3px solid;
+}
+p{
+  color: #fff;
+}
+
+.terminal--light-blue{
+  color: #9ddbff;
+}
+.terminal--blue{
+  color: #579bdb;
+}
+
+.terminal--green{
+  color: #56c8ae;
+}
+
+.terminal--white{
+  color: #fff;
+}
+
+.terminal--orange{
+  color: #66666E;
+}
+.terminal--dark-green{
+  color: #006400;
+  
+}
+
+.mayor {
+  display: none; /* Ocultar el div por defecto */
+}
+
+/* Media query para mostrar el div cuando el ancho de pantalla sea mayor a 1200px */
+@media screen and (min-width: 1201px) {
+  .mayor {
+    display: block; /* Mostrar el div cuando el ancho de pantalla sea mayor a 1200px */
+  }
+}
+
+.menor {
+  display: block; /* Mostrar el div por defecto */
+}
+
+/* Media query para ocultar el div cuando el ancho de pantalla sea mayor o igual a 1200px */
+@media screen and (min-width: 1200px) {
+  .menor {
+    display: none; /* Ocultar el div cuando el ancho de pantalla sea mayor o igual a 1200px */
+  }
+}
